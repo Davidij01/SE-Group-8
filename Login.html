@@ -1,0 +1,55 @@
+<title>Login Page</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<style>
+ h1 {
+    color: black;
+    font-family: Habibi;
+    font-size: 250%;
+  }
+  div1 {
+    color: gray;
+    font-family: Habibi;
+   // font-size: 125%;
+  }
+
+
+</style>
+</head>
+<body>
+<div class="container">
+<section id="content">
+<form action="">
+<h1><u>User Login:</u></h1>
+<div1>
+<input type="text" placeholder="Username" required="" id="username" />
+</div1>
+<div>
+<input type="password" placeholder="Password" required="" id="password" />
+</div>
+
+<div>
+  <input type="radio" id="Administrator" name="drone" value="administrator">
+       
+  <label for="Administrator">Administrator</label>
+
+
+
+  <input type="radio" id="Participant" name="drone" value="participant">
+  <label for="participant">Participant</label>
+
+
+  <input type="radio" id="Organizer" name="drone" value="organizer">
+  <label for="organizer">Organizer</label>
+</div>
+<br></br>
+<div>
+<input type="submit" value="Log in" />
+<a href="#">Forgot your password?</a>
+<a href="#">Register now</a>
+</div>
+</form><!-- form -->
+
+</section><!-- content -->
+</div><!-- container -->
+</body>
+</html>
