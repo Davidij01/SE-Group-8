@@ -1,0 +1,50 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<title>Challenge game</title>
+
+<script src= "js.java"> </script>
+<link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    
+
+<p class="welcome"> Welcome Admin! </p>
+
+<div>
+<input type="checkbox" id="Challenge1">
+<h2><label for="Challenge1" class="dropdown">Challenge 1</label></h2>
+    <p>What is the color of this site?</p>
+    <input type='submit' value ="Solution">   
+</div>
+   
+    
+<div>
+<input type="checkbox" id="Challenge2">
+<h2><label for="Challenge2" class="dropdown">Challenge 2</label> </h2>
+<p>What are the chances of getting a good grade on this assignment?.</p>
+     <input type = "submit" value ="Solution">
+</div>
+
+    <h2> <label onclick="show()"; for="adduser" class = "dropdown">AddUser</label></h2>
+         
+    <form id="newUser">
+      
+        First Name: <input type="text" name="fname" value=""><br>
+   Last Name: <input type="text" name="lname" value=""><br>
+      Email: <input type="text" name="email" value=""><br>
+     ID:<input type="text" name="id" : value=""><br>
+ Role: <input type="text" name="role" value=""><br>
+
+    </form>
+
+
+
+<link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Spicy+Rice' rel='stylesheet' type='text/css'>
